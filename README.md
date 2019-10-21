@@ -47,6 +47,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
 {
+    use HasPermission;
 
     protected $table = 'custom-table-name';
 
