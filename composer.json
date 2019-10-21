@@ -1,7 +1,6 @@
 {
     "name": "ykozhemiaka/simple-permission",
     "description": "Simple permission handling for PHP.",
-    "type": "composer-plugin",
     "license": "MIT",
     "keywords": [
         "permission",
