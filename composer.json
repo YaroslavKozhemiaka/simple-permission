@@ -2,6 +2,7 @@
     "name": "ykozhemiaka/simple-permission",
     "description": "Simple permission handling for PHP.",
     "license": "MIT",
+    "type": "library",
     "keywords": [
         "permission",
         "simple permission",
@@ -15,13 +16,13 @@
         }
     ],
     "require": {
-        "illuminate/database": "^6.3",
-        "composer-plugin-api": "^1.0"
+        "illuminate/database": "^6.3"
     },
     "require-dev": {
         "phpunit/phpunit": "8",
         "symfony/var-dumper": "^4.3"
     },
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "SimplePermission\\": "src",
